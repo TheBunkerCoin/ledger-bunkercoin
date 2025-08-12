@@ -72,7 +72,7 @@ PATH_APP_LOAD_PARAMS = "44'/1'"   # purpose=coin(44) / coin_type=Testnet(1)
 # - <VARIANT_VALUES> a list of variant that can be build using this app code.
 #   * It must at least contains one value.
 #   * Values can be the app ticker or anything else but should be unique.
-VARIANT_PARAM = BUNKER
+VARIANT_PARAM = COIN
 VARIANT_VALUES = BUNKER
 
 # Enabling DEBUG flag will enable PRINTF and disable optimizations
@@ -106,7 +106,7 @@ ENABLE_NBGL_QRCODE = 1
 # This flag enables the swap feature   #
 # in the Boiler application.           #
 ########################################
-ifeq ($(APPNAME), "Boilerplate")
+ifeq ($(APPNAME), "BunkerCoin")
 ENABLE_TESTING_SWAP = 1
 endif
 

@@ -22,7 +22,7 @@ The standalone test suite ensures that the application implements correctly the 
 
 ```text
 swap/
-|── cal_helper.py            # A fake CAL configuration for the BOL currency
+|── cal_helper.py            # A fake CAL configuration for the BUNKER currency
 ├── conftest.py              # Pytest fixtures and device setup
 ├── test_boilerplate.py      # Functional test cases
 ├── setup_script.py          # A helper script to pull and compile Exchange and Ethereum applications (needed to emulate a swap)

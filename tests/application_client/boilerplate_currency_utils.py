@@ -6,7 +6,7 @@ from ragger.utils import create_currency_config
 
 # Derivation path used for the Boilerplate app
 BOL_PATH = "m/44'/1'/0'/0/0"
-# BOL token currency definition
-BOL_CONF = create_currency_config("BOL", "Boilerplate")
+# BUNKER token currency definition
+BOL_CONF = create_currency_config("BUNKER", "BunkerCoin")
 # Serialized derivation path for the Boilerplate app
 BOL_PACKED_DERIVATION_PATH = pack_derivation_path(BOL_PATH)

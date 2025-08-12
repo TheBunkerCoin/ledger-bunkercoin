@@ -7,8 +7,8 @@ which has been inspired by other popular blockchain (see [Links](#links)).
 
 ## Amount units
 
-The base unit in BOLOK *chain* is the BOL and the smallest unit used in raw transaction is
-the *bolino* or mBOL: 1 BOL = 1000 mBOL.
+The base unit in BOLOK *chain* is the BUNKER and the smallest unit used in raw transaction is
+the *bolino* or mBOL: 1 BUNKER = 1000 mBOL.
 
 ## Address format
 
@@ -23,7 +23,7 @@ of the public key.
 | --- | :---: | --- |
 | `nonce` | 8 | A sequence number used to prevent message replay |
 | `to` | 20 | The destination address |
-| `value` | 8 | The amount in mBOL to send to the destination address |
+| `value` | 8 | The amount in mBUNKER to send to the destination address |
 | `memo_len` | 1-9 | length of the memo as [varint](#variablelenghtinteger) |
 | `memo` | var | A text ASCII-encoded of length `memo_len` to show your love |
 | `v` | 1 | 0x01 if y-coordinate of R is odd, 0x00 otherwise |

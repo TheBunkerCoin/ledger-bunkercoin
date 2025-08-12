@@ -98,10 +98,10 @@ int ui_display_transaction_bs_choice(bool is_blind_signed) {
         nbgl_useCaseReviewBlindSigning(TYPE_TRANSACTION,
                                        &pairList,
                                        &ICON_APP_BOILERPLATE,
-                                       "Review transaction\nto send BOL",
+                                       "Review transaction\nto send BUNKER",
                                        NULL,
 #ifdef SCREEN_SIZE_WALLET
-                                       "Sign transaction\nto send BOL",
+                                       "Sign transaction\nto send BUNKER",
 #else
                                        NULL,
 #endif
@@ -112,10 +112,10 @@ int ui_display_transaction_bs_choice(bool is_blind_signed) {
         nbgl_useCaseReview(TYPE_TRANSACTION,
                            &pairList,
                            &ICON_APP_BOILERPLATE,
-                           "Review transaction\nto send BOL",
+                           "Review transaction\nto send BUNKER",
                            NULL,
 #ifdef SCREEN_SIZE_WALLET
-                           "Sign transaction\nto send BOL",
+                           "Sign transaction\nto send BUNKER",
 #else
                            NULL,
 #endif

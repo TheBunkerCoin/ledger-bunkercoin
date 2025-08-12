@@ -65,7 +65,7 @@ int ui_display_address() {
     nbgl_useCaseAddressReview(g_address,
                               NULL,
                               &ICON_APP_BOILERPLATE,
-                              "Verify BOL address",
+                              "Verify BUNKER address",
                               NULL,
                               review_choice);
     return 0;
