@@ -38,17 +38,17 @@ APP_SOURCE_PATH += src
 
 # Application icons following guidelines:
 # https://developers.ledger.com/docs/embedded-app/design-requirements/#device-icon
-ICON_NANOX = icons/app_boilerplate_14px.gif
-ICON_NANOSP = icons/app_boilerplate_14px.gif
-ICON_STAX = icons/app_boilerplate_32px.gif
-ICON_FLEX = icons/app_boilerplate_40px.gif
+ICON_NANOX = icons/app_bunkercoin_14px.gif
+ICON_NANOSP = icons/app_bunkercoin_14px.gif
+ICON_STAX = icons/app_bunkercoin_32px.gif
+ICON_FLEX = icons/app_bunkercoin_40px.gif
 
 ifeq ($(TARGET_NAME),$(filter $(TARGET_NAME),TARGET_NANOX TARGET_NANOS2))
     # With the Nano NBGL Design, the Home Screen icon is the reverse of the App icon:
     # It should be on white background, with rounded corners.
     # This definition allows SDK Makefiles to automatically generate it based on the App icon.
     # Please note that the icon is dynamically generated, and declared in the .gitignore to avoid storing it.
-    ICON_HOME_NANO = glyphs/home_boilerplate_14px.gif
+    ICON_HOME_NANO = glyphs/home_bunkercoin_14px.gif
 endif
 
 # Application allowed derivation curves.
@@ -73,7 +73,7 @@ PATH_APP_LOAD_PARAMS = "44'/1'"   # purpose=coin(44) / coin_type=Testnet(1)
 #   * It must at least contains one value.
 #   * Values can be the app ticker or anything else but should be unique.
 VARIANT_PARAM = COIN
-VARIANT_VALUES = BOL BUNKER
+VARIANT_VALUES = BUNKER
 
 # Enabling DEBUG flag will enable PRINTF and disable optimizations
 #DEBUG = 1
